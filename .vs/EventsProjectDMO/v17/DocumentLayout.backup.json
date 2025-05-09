@@ -1,0 +1,168 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\my projects\\EventsProjectDMO\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{AE5CCC73-5910-4FD1-8443-039F09D21C9F}|MeetingEventsAPI\\MeetingEventsAPI.csproj|d:\\my projects\\eventsprojectdmo\\meetingeventsapi\\controllers\\acountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE5CCC73-5910-4FD1-8443-039F09D21C9F}|MeetingEventsAPI\\MeetingEventsAPI.csproj|solutionrelative:meetingeventsapi\\controllers\\acountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C0D35A2-4578-4719-B152-E7AD883F1F2E}|Ui\\Ui.csproj|d:\\my projects\\eventsprojectdmo\\ui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C0D35A2-4578-4719-B152-E7AD883F1F2E}|Ui\\Ui.csproj|solutionrelative:ui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAEA5580-4053-4729-BCBE-1FE365382276}|Infrastructure\\Infrastructure.csproj|d:\\my projects\\eventsprojectdmo\\infrastructure\\reposatory\\reposatory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EAEA5580-4053-4729-BCBE-1FE365382276}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\reposatory\\reposatory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAEA5580-4053-4729-BCBE-1FE365382276}|Infrastructure\\Infrastructure.csproj|d:\\my projects\\eventsprojectdmo\\infrastructure\\reposatory\\sessionspeakerreposatory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EAEA5580-4053-4729-BCBE-1FE365382276}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\reposatory\\sessionspeakerreposatory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAEA5580-4053-4729-BCBE-1FE365382276}|Infrastructure\\Infrastructure.csproj|d:\\my projects\\eventsprojectdmo\\infrastructure\\reposatory\\acountreposatory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EAEA5580-4053-4729-BCBE-1FE365382276}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\reposatory\\acountreposatory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE5CCC73-5910-4FD1-8443-039F09D21C9F}|MeetingEventsAPI\\MeetingEventsAPI.csproj|d:\\my projects\\eventsprojectdmo\\meetingeventsapi\\controllers\\eventcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE5CCC73-5910-4FD1-8443-039F09D21C9F}|MeetingEventsAPI\\MeetingEventsAPI.csproj|solutionrelative:meetingeventsapi\\controllers\\eventcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE5CCC73-5910-4FD1-8443-039F09D21C9F}|MeetingEventsAPI\\MeetingEventsAPI.csproj|d:\\my projects\\eventsprojectdmo\\meetingeventsapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{AE5CCC73-5910-4FD1-8443-039F09D21C9F}|MeetingEventsAPI\\MeetingEventsAPI.csproj|solutionrelative:meetingeventsapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE5CCC73-5910-4FD1-8443-039F09D21C9F}|MeetingEventsAPI\\MeetingEventsAPI.csproj|d:\\my projects\\eventsprojectdmo\\meetingeventsapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{AE5CCC73-5910-4FD1-8443-039F09D21C9F}|MeetingEventsAPI\\MeetingEventsAPI.csproj|solutionrelative:meetingeventsapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SessionSpeakerReposatory.cs",
+              "DocumentMoniker": "D:\\my projects\\EventsProjectDMO\\Infrastructure\\Reposatory\\SessionSpeakerReposatory.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Reposatory\\SessionSpeakerReposatory.cs",
+              "ToolTip": "D:\\my projects\\EventsProjectDMO\\Infrastructure\\Reposatory\\SessionSpeakerReposatory.cs",
+              "RelativeToolTip": "Infrastructure\\Reposatory\\SessionSpeakerReposatory.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-09T12:17:26.576Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AcountReposatory.cs",
+              "DocumentMoniker": "D:\\my projects\\EventsProjectDMO\\Infrastructure\\Reposatory\\AcountReposatory.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Reposatory\\AcountReposatory.cs",
+              "ToolTip": "D:\\my projects\\EventsProjectDMO\\Infrastructure\\Reposatory\\AcountReposatory.cs",
+              "RelativeToolTip": "Infrastructure\\Reposatory\\AcountReposatory.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA4AAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-09T12:16:54.48Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AcountController.cs",
+              "DocumentMoniker": "D:\\my projects\\EventsProjectDMO\\MeetingEventsAPI\\Controllers\\AcountController.cs",
+              "RelativeDocumentMoniker": "MeetingEventsAPI\\Controllers\\AcountController.cs",
+              "ToolTip": "D:\\my projects\\EventsProjectDMO\\MeetingEventsAPI\\Controllers\\AcountController.cs",
+              "RelativeToolTip": "MeetingEventsAPI\\Controllers\\AcountController.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAcwCQAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-09T12:14:28.768Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\my projects\\EventsProjectDMO\\Ui\\Program.cs",
+              "RelativeDocumentMoniker": "Ui\\Program.cs",
+              "ToolTip": "D:\\my projects\\EventsProjectDMO\\Ui\\Program.cs",
+              "RelativeToolTip": "Ui\\Program.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAgwA0AAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-09T12:13:04.424Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Reposatory.cs",
+              "DocumentMoniker": "D:\\my projects\\EventsProjectDMO\\Infrastructure\\Reposatory\\Reposatory.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Reposatory\\Reposatory.cs",
+              "ToolTip": "D:\\my projects\\EventsProjectDMO\\Infrastructure\\Reposatory\\Reposatory.cs",
+              "RelativeToolTip": "Infrastructure\\Reposatory\\Reposatory.cs",
+              "ViewState": "AgIAAGUAAAAAAAAAAAAIwHAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-09T12:10:57.988Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "EventController.cs",
+              "DocumentMoniker": "D:\\my projects\\EventsProjectDMO\\MeetingEventsAPI\\Controllers\\EventController.cs",
+              "RelativeDocumentMoniker": "MeetingEventsAPI\\Controllers\\EventController.cs",
+              "ToolTip": "D:\\my projects\\EventsProjectDMO\\MeetingEventsAPI\\Controllers\\EventController.cs",
+              "RelativeToolTip": "MeetingEventsAPI\\Controllers\\EventController.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAcwBgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-09T12:10:58.004Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "D:\\my projects\\EventsProjectDMO\\MeetingEventsAPI\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "MeetingEventsAPI\\Properties\\launchSettings.json",
+              "ToolTip": "D:\\my projects\\EventsProjectDMO\\MeetingEventsAPI\\Properties\\launchSettings.json",
+              "RelativeToolTip": "MeetingEventsAPI\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-09T12:10:43.062Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\my projects\\EventsProjectDMO\\MeetingEventsAPI\\appsettings.json",
+              "RelativeDocumentMoniker": "MeetingEventsAPI\\appsettings.json",
+              "ToolTip": "D:\\my projects\\EventsProjectDMO\\MeetingEventsAPI\\appsettings.json",
+              "RelativeToolTip": "MeetingEventsAPI\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-09T12:10:39.449Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

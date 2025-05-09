@@ -1,0 +1,5 @@
+D:\my projects\EventsProjectDMO\Services\obj\Debug\net9.0\Services.csproj.AssemblyReference.cache
+D:\my projects\EventsProjectDMO\Services\obj\Debug\net9.0\Services.GeneratedMSBuildEditorConfig.editorconfig
+D:\my projects\EventsProjectDMO\Services\obj\Debug\net9.0\Services.AssemblyInfoInputs.cache
+D:\my projects\EventsProjectDMO\Services\obj\Debug\net9.0\Services.AssemblyInfo.cs
+D:\my projects\EventsProjectDMO\Services\obj\Debug\net9.0\Services.csproj.CoreCompileInputs.cache

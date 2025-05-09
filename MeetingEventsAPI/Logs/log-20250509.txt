@@ -1,0 +1,226 @@
+2025-05-09 13:49:04.291 +03:00 [WRN] (RequestId: 0HNCESSE4C6HJ:00000001, UserId: Anonymous, Username: Anonymous, Role: None) No store type was specified for the decimal property 'Price' on entity type 'TicketType'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-05-09 13:49:05.573 +03:00 [ERR] (RequestId: 0HNCESSE4C6HJ:00000001, UserId: Anonymous, Username: Anonymous, Role: None) An exception occurred while iterating over the results of a query for context type 'Infrastructure.Data.AppDbContext'.
+System.InvalidOperationException: Cannot convert string value 'Scheduled' from the database to any value in the mapped 'EvenentStatus' enum.
+   at Microsoft.EntityFrameworkCore.Storage.ValueConversion.Internal.StringEnumConverter`3.ConvertToEnum(String value)
+   at lambda_method93(Closure, QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+System.InvalidOperationException: Cannot convert string value 'Scheduled' from the database to any value in the mapped 'EvenentStatus' enum.
+   at Microsoft.EntityFrameworkCore.Storage.ValueConversion.Internal.StringEnumConverter`3.ConvertToEnum(String value)
+   at lambda_method93(Closure, QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+2025-05-09 13:54:34.092 +03:00 [WRN] (RequestId: 0HNCESVGLPITB:00000001, UserId: Anonymous, Username: Anonymous, Role: None) No store type was specified for the decimal property 'Price' on entity type 'TicketType'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-05-09 13:54:35.034 +03:00 [ERR] (RequestId: 0HNCESVGLPITB:00000001, UserId: Anonymous, Username: Anonymous, Role: None) An exception occurred while iterating over the results of a query for context type 'Infrastructure.Data.AppDbContext'.
+System.InvalidOperationException: Cannot convert string value 'Scheduled' from the database to any value in the mapped 'EvenentStatus' enum.
+   at Microsoft.EntityFrameworkCore.Storage.ValueConversion.Internal.StringEnumConverter`3.ConvertToEnum(String value)
+   at lambda_method93(Closure, QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+System.InvalidOperationException: Cannot convert string value 'Scheduled' from the database to any value in the mapped 'EvenentStatus' enum.
+   at Microsoft.EntityFrameworkCore.Storage.ValueConversion.Internal.StringEnumConverter`3.ConvertToEnum(String value)
+   at lambda_method93(Closure, QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+2025-05-09 13:57:32.913 +03:00 [WRN] (RequestId: 0HNCET15EGD78:00000001, UserId: Anonymous, Username: Anonymous, Role: None) No store type was specified for the decimal property 'Price' on entity type 'TicketType'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-05-09 13:57:34.736 +03:00 [ERR] (RequestId: 0HNCET15EGD78:00000001, UserId: Anonymous, Username: Anonymous, Role: None) An exception occurred while iterating over the results of a query for context type 'Infrastructure.Data.AppDbContext'.
+System.InvalidOperationException: Cannot convert string value 'Multiple Choice' from the database to any value in the mapped 'PollType' enum.
+   at Microsoft.EntityFrameworkCore.Storage.ValueConversion.Internal.StringEnumConverter`3.ConvertToEnum(String value)
+   at lambda_method75(Closure, QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+System.InvalidOperationException: Cannot convert string value 'Multiple Choice' from the database to any value in the mapped 'PollType' enum.
+   at Microsoft.EntityFrameworkCore.Storage.ValueConversion.Internal.StringEnumConverter`3.ConvertToEnum(String value)
+   at lambda_method75(Closure, QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+2025-05-09 13:59:16.239 +03:00 [WRN] (RequestId: 0HNCET21N3KK7:00000015, UserId: Anonymous, Username: Anonymous, Role: None) No store type was specified for the decimal property 'Price' on entity type 'TicketType'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-05-09 14:03:06.590 +03:00 [ERR] (RequestId: 0HNCET21N3KK7:00000019, UserId: Anonymous, Username: Anonymous, Role: None) An exception occurred while iterating over the results of a query for context type 'Infrastructure.Data.AppDbContext'.
+System.InvalidOperationException: Cannot convert string value 'Scheduled' from the database to any value in the mapped 'EvenentStatus' enum.
+   at Microsoft.EntityFrameworkCore.Storage.ValueConversion.Internal.StringEnumConverter`3.ConvertToEnum(String value)
+   at lambda_method463(Closure, QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+System.InvalidOperationException: Cannot convert string value 'Scheduled' from the database to any value in the mapped 'EvenentStatus' enum.
+   at Microsoft.EntityFrameworkCore.Storage.ValueConversion.Internal.StringEnumConverter`3.ConvertToEnum(String value)
+   at lambda_method463(Closure, QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+2025-05-09 14:06:50.639 +03:00 [WRN] (RequestId: 0HNCET60VJGTO:00000007, UserId: Anonymous, Username: Anonymous, Role: None) No store type was specified for the decimal property 'Price' on entity type 'TicketType'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-05-09 14:06:54.653 +03:00 [ERR] (RequestId: 0HNCET60VJGTO:00000007, UserId: Anonymous, Username: Anonymous, Role: None) An exception occurred while iterating over the results of a query for context type 'Infrastructure.Data.AppDbContext'.
+System.InvalidOperationException: Cannot convert string value 'Conference' from the database to any value in the mapped 'EventType' enum.
+   at Microsoft.EntityFrameworkCore.Storage.ValueConversion.Internal.StringEnumConverter`3.ConvertToEnum(String value)
+   at lambda_method93(Closure, QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+System.InvalidOperationException: Cannot convert string value 'Conference' from the database to any value in the mapped 'EventType' enum.
+   at Microsoft.EntityFrameworkCore.Storage.ValueConversion.Internal.StringEnumConverter`3.ConvertToEnum(String value)
+   at lambda_method93(Closure, QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+2025-05-09 14:10:17.110 +03:00 [WRN] (RequestId: 0HNCET848V54S:00000007, UserId: Anonymous, Username: Anonymous, Role: None) No store type was specified for the decimal property 'Price' on entity type 'TicketType'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-05-09 14:11:11.486 +03:00 [ERR] (RequestId: 0HNCET848V54S:00000009, UserId: Anonymous, Username: Anonymous, Role: None) An exception occurred while iterating over the results of a query for context type 'Infrastructure.Data.AppDbContext'.
+System.InvalidOperationException: Cannot convert string value 'Multiple Choice' from the database to any value in the mapped 'PollType' enum.
+   at Microsoft.EntityFrameworkCore.Storage.ValueConversion.Internal.StringEnumConverter`3.ConvertToEnum(String value)
+   at lambda_method233(Closure, QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+System.InvalidOperationException: Cannot convert string value 'Multiple Choice' from the database to any value in the mapped 'PollType' enum.
+   at Microsoft.EntityFrameworkCore.Storage.ValueConversion.Internal.StringEnumConverter`3.ConvertToEnum(String value)
+   at lambda_method233(Closure, QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+2025-05-09 14:17:57.561 +03:00 [WRN] (RequestId: 0HNCETCEKR341:00000007, UserId: Anonymous, Username: Anonymous, Role: None) No store type was specified for the decimal property 'Price' on entity type 'TicketType'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-05-09 14:22:39.044 +03:00 [WRN] (RequestId: 0HNCETF2GTB83:00000007, UserId: Anonymous, Username: Anonymous, Role: None) No store type was specified for the decimal property 'Price' on entity type 'TicketType'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-05-09 14:22:57.897 +03:00 [ERR] (RequestId: 0HNCETF2GTB83:00000007, UserId: Anonymous, Username: Anonymous, Role: None) An exception occurred while iterating over the results of a query for context type 'Infrastructure.Data.AppDbContext'.
+System.InvalidOperationException: Cannot convert string value 'Bootcamp' from the database to any value in the mapped 'SessionType' enum.
+   at Microsoft.EntityFrameworkCore.Storage.ValueConversion.Internal.StringEnumConverter`3.ConvertToEnum(String value)
+   at lambda_method357(Closure, QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+System.InvalidOperationException: Cannot convert string value 'Bootcamp' from the database to any value in the mapped 'SessionType' enum.
+   at Microsoft.EntityFrameworkCore.Storage.ValueConversion.Internal.StringEnumConverter`3.ConvertToEnum(String value)
+   at lambda_method357(Closure, QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+2025-05-09 14:24:41.406 +03:00 [WRN] (RequestId: 0HNCETG6R09GJ:00000007, UserId: Anonymous, Username: Anonymous, Role: None) No store type was specified for the decimal property 'Price' on entity type 'TicketType'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-05-09 14:25:01.366 +03:00 [ERR] (RequestId: 0HNCETG6R09GJ:00000007, UserId: Anonymous, Username: Anonymous, Role: None) An exception occurred while iterating over the results of a query for context type 'Infrastructure.Data.AppDbContext'.
+System.InvalidOperationException: Cannot convert string value 'Bootcamp' from the database to any value in the mapped 'SessionType' enum.
+   at Microsoft.EntityFrameworkCore.Storage.ValueConversion.Internal.StringEnumConverter`3.ConvertToEnum(String value)
+   at lambda_method357(Closure, QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+System.InvalidOperationException: Cannot convert string value 'Bootcamp' from the database to any value in the mapped 'SessionType' enum.
+   at Microsoft.EntityFrameworkCore.Storage.ValueConversion.Internal.StringEnumConverter`3.ConvertToEnum(String value)
+   at lambda_method357(Closure, QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+2025-05-09 14:25:49.387 +03:00 [WRN] (RequestId: 0HNCETGO9B9LG:00000007, UserId: Anonymous, Username: Anonymous, Role: None) No store type was specified for the decimal property 'Price' on entity type 'TicketType'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-05-09 14:25:50.293 +03:00 [ERR] (RequestId: 0HNCETGO9B9LG:00000007, UserId: Anonymous, Username: Anonymous, Role: None) An exception occurred while iterating over the results of a query for context type 'Infrastructure.Data.AppDbContext'.
+System.InvalidOperationException: Cannot convert string value 'Webinar' from the database to any value in the mapped 'SessionType' enum.
+   at Microsoft.EntityFrameworkCore.Storage.ValueConversion.Internal.StringEnumConverter`3.ConvertToEnum(String value)
+   at lambda_method88(Closure, QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+System.InvalidOperationException: Cannot convert string value 'Webinar' from the database to any value in the mapped 'SessionType' enum.
+   at Microsoft.EntityFrameworkCore.Storage.ValueConversion.Internal.StringEnumConverter`3.ConvertToEnum(String value)
+   at lambda_method88(Closure, QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+2025-05-09 14:28:28.884 +03:00 [WRN] (RequestId: 0HNCETIAUDJ4O:00000007, UserId: Anonymous, Username: Anonymous, Role: None) No store type was specified for the decimal property 'Price' on entity type 'TicketType'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-05-09 14:37:49.808 +03:00 [WRN] (RequestId: 0HNCETNJG1CCT:00000007, UserId: Anonymous, Username: Anonymous, Role: None) No store type was specified for the decimal property 'Price' on entity type 'TicketType'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-05-09 14:37:50.591 +03:00 [WRN] (RequestId: 0HNCETNJG1CCT:00000007, UserId: Anonymous, Username: Anonymous, Role: None) The query uses the 'First'/'FirstOrDefault' operator without 'OrderBy' and filter operators. This may lead to unpredictable results.
+2025-05-09 14:38:11.042 +03:00 [WRN] (RequestId: 0HNCETNJG1CCT:00000009, UserId: Anonymous, Username: Anonymous, Role: None) The query uses the 'First'/'FirstOrDefault' operator without 'OrderBy' and filter operators. This may lead to unpredictable results.
+2025-05-09 14:38:11.101 +03:00 [ERR] (RequestId: 0HNCETNJG1CCT:00000009, UserId: Anonymous, Username: Anonymous, Role: None) Failed executing DbCommand (10ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [d].[Bio], [d].[CreatedAt], [d].[Email], [d].[EndTime], [d].[EventId], [d].[LastLogin], [d].[MaxParticipants], [d].[RecordingUrl], [d].[Role], [d].[SessionId], [d].[SessionLink], [d].[SessionStatus], [d].[SessionType], [d].[StartTime], [d].[Title], [d].[UserId], [d].[UserName], [d].[UserType], [d].[VirtualRoomId]
+FROM (
+    SELECT * FROM vw_SessionSpeakersDetails
+) AS [d]
+2025-05-09 14:38:11.133 +03:00 [ERR] (RequestId: 0HNCETNJG1CCT:00000009, UserId: Anonymous, Username: Anonymous, Role: None) An exception occurred while iterating over the results of a query for context type 'Infrastructure.Data.AppDbContext'.
+Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid column name 'UserId'.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__211_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.<>c__DisplayClass30_0`2.<<ExecuteAsync>b__0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.ExecuteImplementationAsync[TState,TResult](Func`4 operation, Func`4 verifySucceeded, TState state, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.ExecuteImplementationAsync[TState,TResult](Func`4 operation, Func`4 verifySucceeded, TState state, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+ClientConnectionId:4cc3067b-32ba-4983-b2bf-ec85fff0ba5e
+Error Number:207,State:1,Class:16
+Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid column name 'UserId'.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__211_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.<>c__DisplayClass30_0`2.<<ExecuteAsync>b__0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.ExecuteImplementationAsync[TState,TResult](Func`4 operation, Func`4 verifySucceeded, TState state, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.ExecuteImplementationAsync[TState,TResult](Func`4 operation, Func`4 verifySucceeded, TState state, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+ClientConnectionId:4cc3067b-32ba-4983-b2bf-ec85fff0ba5e
+Error Number:207,State:1,Class:16
+2025-05-09 14:52:08.937 +03:00 [WRN] (RequestId: 0HNCETVIIDFN5:00000007, UserId: Anonymous, Username: Anonymous, Role: None) No store type was specified for the decimal property 'Price' on entity type 'TicketType'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-05-09 14:52:37.502 +03:00 [ERR] (RequestId: 0HNCETVIIDFN5:00000009, UserId: Anonymous, Username: Anonymous, Role: None) An exception occurred while iterating over the results of a query for context type 'Infrastructure.Data.AppDbContext'.
+System.Data.SqlTypes.SqlNullValueException: Data is Null. This method or property cannot be called on Null values.
+   at Microsoft.Data.SqlClient.SqlBuffer.ThrowIfNull()
+   at Microsoft.Data.SqlClient.SqlBuffer.get_String()
+   at Microsoft.Data.SqlClient.SqlDataReader.GetString(Int32 i)
+   at lambda_method132(Closure, DbDataReader, Int32[])
+   at Microsoft.EntityFrameworkCore.Query.Internal.BufferedDataReader.BufferedDataRecord.ReadObject(DbDataReader reader, Int32 ordinal, ReaderColumn column)
+   at Microsoft.EntityFrameworkCore.Query.Internal.BufferedDataReader.BufferedDataRecord.ReadRow()
+   at Microsoft.EntityFrameworkCore.Query.Internal.BufferedDataReader.BufferedDataRecord.InitializeAsync(DbDataReader reader, IReadOnlyList`1 columns, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.BufferedDataReader.InitializeAsync(IReadOnlyList`1 columns, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.BufferedDataReader.InitializeAsync(IReadOnlyList`1 columns, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.FromSqlQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.<>c__DisplayClass30_0`2.<<ExecuteAsync>b__0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.ExecuteImplementationAsync[TState,TResult](Func`4 operation, Func`4 verifySucceeded, TState state, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.ExecuteImplementationAsync[TState,TResult](Func`4 operation, Func`4 verifySucceeded, TState state, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.FromSqlQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+System.Data.SqlTypes.SqlNullValueException: Data is Null. This method or property cannot be called on Null values.
+   at Microsoft.Data.SqlClient.SqlBuffer.ThrowIfNull()
+   at Microsoft.Data.SqlClient.SqlBuffer.get_String()
+   at Microsoft.Data.SqlClient.SqlDataReader.GetString(Int32 i)
+   at lambda_method132(Closure, DbDataReader, Int32[])
+   at Microsoft.EntityFrameworkCore.Query.Internal.BufferedDataReader.BufferedDataRecord.ReadObject(DbDataReader reader, Int32 ordinal, ReaderColumn column)
+   at Microsoft.EntityFrameworkCore.Query.Internal.BufferedDataReader.BufferedDataRecord.ReadRow()
+   at Microsoft.EntityFrameworkCore.Query.Internal.BufferedDataReader.BufferedDataRecord.InitializeAsync(DbDataReader reader, IReadOnlyList`1 columns, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.BufferedDataReader.InitializeAsync(IReadOnlyList`1 columns, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.BufferedDataReader.InitializeAsync(IReadOnlyList`1 columns, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.FromSqlQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.<>c__DisplayClass30_0`2.<<ExecuteAsync>b__0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.ExecuteImplementationAsync[TState,TResult](Func`4 operation, Func`4 verifySucceeded, TState state, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.ExecuteImplementationAsync[TState,TResult](Func`4 operation, Func`4 verifySucceeded, TState state, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.FromSqlQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+2025-05-09 14:59:03.150 +03:00 [WRN] (RequestId: 0HNCEU3E5M6S9:00000007, UserId: Anonymous, Username: Anonymous, Role: None) No store type was specified for the decimal property 'Price' on entity type 'TicketType'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-05-09 14:59:04.081 +03:00 [ERR] (RequestId: 0HNCEU3E5M6S9:00000007, UserId: Anonymous, Username: Anonymous, Role: None) An exception occurred while iterating over the results of a query for context type 'Infrastructure.Data.AppDbContext'.
+System.InvalidCastException: Unable to cast object of type 'System.Int32' to type 'System.String'.
+   at Microsoft.Data.SqlClient.SqlBuffer.get_String()
+   at Microsoft.Data.SqlClient.SqlDataReader.GetString(Int32 i)
+   at lambda_method90(Closure, DbDataReader, Int32[])
+   at Microsoft.EntityFrameworkCore.Query.Internal.BufferedDataReader.BufferedDataRecord.ReadObject(DbDataReader reader, Int32 ordinal, ReaderColumn column)
+   at Microsoft.EntityFrameworkCore.Query.Internal.BufferedDataReader.BufferedDataRecord.ReadRow()
+   at Microsoft.EntityFrameworkCore.Query.Internal.BufferedDataReader.BufferedDataRecord.InitializeAsync(DbDataReader reader, IReadOnlyList`1 columns, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.BufferedDataReader.InitializeAsync(IReadOnlyList`1 columns, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.BufferedDataReader.InitializeAsync(IReadOnlyList`1 columns, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.FromSqlQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.<>c__DisplayClass30_0`2.<<ExecuteAsync>b__0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.ExecuteImplementationAsync[TState,TResult](Func`4 operation, Func`4 verifySucceeded, TState state, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.ExecuteImplementationAsync[TState,TResult](Func`4 operation, Func`4 verifySucceeded, TState state, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.FromSqlQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+System.InvalidCastException: Unable to cast object of type 'System.Int32' to type 'System.String'.
+   at Microsoft.Data.SqlClient.SqlBuffer.get_String()
+   at Microsoft.Data.SqlClient.SqlDataReader.GetString(Int32 i)
+   at lambda_method90(Closure, DbDataReader, Int32[])
+   at Microsoft.EntityFrameworkCore.Query.Internal.BufferedDataReader.BufferedDataRecord.ReadObject(DbDataReader reader, Int32 ordinal, ReaderColumn column)
+   at Microsoft.EntityFrameworkCore.Query.Internal.BufferedDataReader.BufferedDataRecord.ReadRow()
+   at Microsoft.EntityFrameworkCore.Query.Internal.BufferedDataReader.BufferedDataRecord.InitializeAsync(DbDataReader reader, IReadOnlyList`1 columns, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.BufferedDataReader.InitializeAsync(IReadOnlyList`1 columns, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.BufferedDataReader.InitializeAsync(IReadOnlyList`1 columns, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.FromSqlQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.<>c__DisplayClass30_0`2.<<ExecuteAsync>b__0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.ExecuteImplementationAsync[TState,TResult](Func`4 operation, Func`4 verifySucceeded, TState state, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.ExecuteImplementationAsync[TState,TResult](Func`4 operation, Func`4 verifySucceeded, TState state, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.FromSqlQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+2025-05-09 15:08:43.607 +03:00 [WRN] (RequestId: 0HNCEU8SHR3NQ:00000007, UserId: Anonymous, Username: Anonymous, Role: None) No store type was specified for the decimal property 'Price' on entity type 'TicketType'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-05-09 15:12:00.899 +03:00 [WRN] (RequestId: 0HNCEUAO9DCT1:00000001, UserId: Anonymous, Username: Anonymous, Role: None) No store type was specified for the decimal property 'Price' on entity type 'TicketType'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-05-09 15:16:35.441 +03:00 [WRN] (RequestId: 0HNCEUD8SCAJ0:00000001, UserId: Anonymous, Username: Anonymous, Role: None) No store type was specified for the decimal property 'Price' on entity type 'TicketType'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-05-09 15:18:11.174 +03:00 [WRN] (RequestId: 0HNCEUE7TP6CQ:00000001, UserId: Anonymous, Username: Anonymous, Role: None) No store type was specified for the decimal property 'Price' on entity type 'TicketType'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-05-09 15:20:11.227 +03:00 [WRN] (RequestId: 0HNCEUFBML4P0:00000001, UserId: Anonymous, Username: Anonymous, Role: None) No store type was specified for the decimal property 'Price' on entity type 'TicketType'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-05-09 15:21:48.924 +03:00 [WRN] (RequestId: 0HNCEUG8R7Q3S:00000001, UserId: Anonymous, Username: Anonymous, Role: None) No store type was specified for the decimal property 'Price' on entity type 'TicketType'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-05-09 15:22:06.801 +03:00 [WRN] (RequestId: 0HNCEUGE3S33V:00000001, UserId: Anonymous, Username: Anonymous, Role: None) No store type was specified for the decimal property 'Price' on entity type 'TicketType'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-05-09 15:22:24.340 +03:00 [WRN] (RequestId: 0HNCEUGJBUHUI:00000001, UserId: Anonymous, Username: Anonymous, Role: None) No store type was specified for the decimal property 'Price' on entity type 'TicketType'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-05-09 15:26:01.759 +03:00 [WRN] (RequestId: 0HNCEUIJU8UHB:00000001, UserId: Anonymous, Username: Anonymous, Role: None) No store type was specified for the decimal property 'Price' on entity type 'TicketType'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.

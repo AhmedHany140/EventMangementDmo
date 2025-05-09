@@ -1,0 +1,15 @@
+[
+  {
+    "Name": "New Profile",
+    "Projects": [
+      {
+        "Path": "MeetingEventsAPI\\MeetingEventsAPI.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "Ui\\Ui.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]

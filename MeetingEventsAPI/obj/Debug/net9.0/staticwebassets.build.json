@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "0vm1bodOy1JMdOv5qICqkZ+dOdYerNnWFlNmQtXHc68=",
+  "Source": "MeetingEventsAPI",
+  "BasePath": "_content/MeetingEventsAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
