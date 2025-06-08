@@ -15,6 +15,7 @@ using Infrastructure.Provider;
 using Infrastructure.Reposatory;
 using Application.Mapper;
 using Application.DTOs;
+using Serilog.Sinks.SystemConsole.Themes;
 
 namespace Infrastructure.ServiceContainer
 {
@@ -29,7 +30,7 @@ namespace Infrastructure.ServiceContainer
 				 .AddEntityFrameworkStores<AppDbContext>()
 					 .AddDefaultTokenProviders();
 
-			AddJWTValidation(services, configuration);
+			services.AddJWTValidation(configuration);
 
 			InjectSevices(services, configuration);
 		}
@@ -103,29 +104,54 @@ namespace Infrastructure.ServiceContainer
 		}
 
 
-
-		public static void AddConfigurationLog(string filename)
+		public static void AddConfigurationLog(string filename, string environmentName)
 		{
+			// Set up log directory
+			var logDirectory = Path.Combine(Directory.GetCurrentDirectory(), "Logs");
+			Directory.CreateDirectory(logDirectory); // Ensure directory exists
+
+			// Configure logger
 			Log.Logger = new LoggerConfiguration()
+				.MinimumLevel.Debug() // Base level
 				.MinimumLevel.Override("Microsoft", LogEventLevel.Warning)
 				.MinimumLevel.Override("System", LogEventLevel.Warning)
-				.MinimumLevel.Information()
+				.MinimumLevel.Override("Microsoft.AspNetCore", LogEventLevel.Warning)
 				.Enrich.FromLogContext()
+				.Enrich.WithProperty("Environment", environmentName)
+				.Enrich.WithMachineName()
+				.Enrich.WithProcessId()
+				.Enrich.WithThreadId()
 				.WriteTo.Console(
-					outputTemplate: "[{Timestamp:HH:mm:ss} {Level:u3}] (RequestId: {RequestId}, UserId: {UserId}, Username: {Username}, Role: {Role}) {Message:lj}{NewLine}{Exception}",
-					theme: Serilog.Sinks.SystemConsole.Themes.AnsiConsoleTheme.Code
+					outputTemplate: "[{Timestamp:HH:mm:ss} {Level:u3}] " +
+								   "(ReqId: {RequestId}, User: {Username}, " +
+								   "Env: {Environment}) {Message:lj}{NewLine}{Exception}",
+					theme: AnsiConsoleTheme.Code,
+					restrictedToMinimumLevel: environmentName == "Development"
+						? LogEventLevel.Debug
+						: LogEventLevel.Information
 				)
 				.WriteTo.File(
-					path: $"{filename}-.txt",
-					restrictedToMinimumLevel: LogEventLevel.Information,
-					outputTemplate: "{Timestamp:yyyy-MM-dd HH:mm:ss.fff zzz} [{Level:u3}] (RequestId: {RequestId}, UserId: {UserId}, Username: {Username}, Role: {Role}) {Message:lj}{NewLine}{Exception}",
+					path: Path.Combine(logDirectory, $"{filename}-.log"),
+					outputTemplate: "{Timestamp:yyyy-MM-dd HH:mm:ss.fff zzz} " +
+									"[{Level:u3}] (ReqId: {RequestId}, " +
+									"User: {UserId}|{Username}, Role: {Role}, " +
+									"Machine: {MachineName}, Thread: {ThreadId}) " +
+									"{Message:lj}{NewLine}{Exception}",
 					rollingInterval: RollingInterval.Day,
-					shared: true
+					retainedFileCountLimit: 30, // Keep logs for 30 days
+					shared: true,
+					restrictedToMinimumLevel: LogEventLevel.Information
 				)
+				.WriteTo.Debug(restrictedToMinimumLevel: LogEventLevel.Debug)
 				.CreateLogger();
+
+			Log.Information("Logger initialized in {Environment} environment", environmentName);
 		}
 
 
-
 	}
+
+
+
 }
+

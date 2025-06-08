@@ -17,22 +17,22 @@ namespace Infrastructure.Configurations
 				.HasMaxLength(200);
 
 			builder.Property(s => s.LogoUrl)
-				.HasMaxLength(500); // Optional
+				.HasMaxLength(500); 
 
 			builder.Property(s => s.Website)
-				.HasMaxLength(500); // Optional
+				.HasMaxLength(500); 
 
 			builder.Property(s => s.ContactPerson)
-				.HasMaxLength(200); // Optional
+				.HasMaxLength(200); 
 
 			builder.Property(s => s.Email)
-				.HasMaxLength(200); // Optional
+				.HasMaxLength(200);
 
 			builder.Property(s => s.SponsorLevel)
 				.IsRequired()
-				.HasConversion<string>(); // Store as string (e.g., "Bronze", "Silver", "Platinum")
+				.HasConversion<string>(); 
 
-			// Relationships
+	
 			builder.HasMany(s => s.EventSponsors)
 				.WithOne(es => es.Sponsor)
 				.HasForeignKey(es => es.SponsorId)

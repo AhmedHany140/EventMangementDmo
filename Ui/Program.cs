@@ -11,61 +11,51 @@ namespace Ui
 
 		static async Task Main(string[] args)
 		{
+			Console.BackgroundColor = ConsoleColor.Yellow;
+			Console.ForegroundColor = ConsoleColor.Black;
+
 			HttpClient client = new HttpClient();
 
 			string[] Controllers = {
 				"Acount", "ChatMessage", "Event", "Poll",
 				"Registeration", "Resource", "Session",
-				"Sponsor", "Ticket", "VirtualRoom" ,"EventSponsor","SessionSpeaker"
-			}; 
+				"Sponsor", "Ticket", "VirtualRoom", "EventSponsor"
+			};
 
-			Console.WriteLine("Available Controllers:");
-			Console.WriteLine(string.Join(", ", Controllers));
+			Console.WriteLine("Fetching data from all controllers...\n");
 
-			Console.Write("Enter Controller Name: ");
-			string controllerName = Console.ReadLine()?.Trim();
-
-			// Validate input
-			if (!Controllers.Contains(controllerName, StringComparer.OrdinalIgnoreCase))
+			foreach (var controllerName in Controllers)
 			{
-				Console.WriteLine("Invalid controller name.");
-				Console.ReadKey();
-				return;
-			}
+				string endpointUrl = $"{BaseUrl}/api/{controllerName}/GetAll";
 
-			// Fix case sensitivity
-			var correctControllerName = Controllers.First(c =>
-				c.Equals(controllerName, StringComparison.OrdinalIgnoreCase));
-
-			string endpointUrl = $"{BaseUrl}/api/{correctControllerName}/GetAll";
-
-			try
-			{
-				Console.WriteLine($"Sending request to: {endpointUrl}");
-
-				var response = await client.GetAsync(endpointUrl);
-
-				if (!response.IsSuccessStatusCode)
+				try
 				{
-					Console.WriteLine($"Error: {response.StatusCode}");
-					Console.WriteLine($"Response: {await response.Content.ReadAsStringAsync()}");
-					Console.ReadKey();
-					return;
+					Console.WriteLine($"=== {controllerName.ToUpper()} DATA ===");
+
+					var response = await client.GetAsync(endpointUrl);
+
+					if (!response.IsSuccessStatusCode)
+					{
+						Console.WriteLine($"Error fetching {controllerName}: {response.StatusCode}");
+						Console.WriteLine($"Response: {await response.Content.ReadAsStringAsync()}");
+						Console.WriteLine();
+						continue;
+					}
+
+					var responseContent = await response.Content.ReadAsStringAsync();
+					PrintJsonAsTable(responseContent);
+					Console.WriteLine(); // Add space between controllers
 				}
-
-				var responseContent = await response.Content.ReadAsStringAsync();
-
-				// Format and display JSON as table with properties in one column
-				PrintJsonAsTable(responseContent);
-			}
-			catch (Exception ex)
-			{
-				Console.WriteLine($"Exception: {ex.Message}");
-				if (ex.InnerException != null)
-					Console.WriteLine($"Inner Exception: {ex.InnerException.Message}");
+				catch (Exception ex)
+				{
+					Console.WriteLine($"Exception while fetching {controllerName}: {ex.Message}");
+					if (ex.InnerException != null)
+						Console.WriteLine($"Inner Exception: {ex.InnerException.Message}");
+					Console.WriteLine();
+				}
 			}
 
-			Console.WriteLine("\nPress any key to exit...");
+			Console.WriteLine("Finished fetching all data. Press any key to exit...");
 			Console.ReadKey();
 		}
 
@@ -78,7 +68,7 @@ namespace Ui
 
 				if (root.ValueKind != JsonValueKind.Array || root.GetArrayLength() == 0)
 				{
-					Console.WriteLine("No data to display.");
+					Console.WriteLine("No data available.");
 					return;
 				}
 
@@ -88,7 +78,7 @@ namespace Ui
 					foreach (var property in element.EnumerateObject())
 					{
 						// Print property name and its value
-						Console.WriteLine($"{property.Name,-20} : {property.Value}");
+						Console.WriteLine($"{property.Name,-20} : {FormatValue(property.Value)}");
 					}
 					Console.WriteLine(new string('-', 50)); // Separate each record
 				}
@@ -97,6 +87,17 @@ namespace Ui
 			{
 				Console.WriteLine($"Error parsing JSON: {ex.Message}");
 			}
+		}
+
+		static string FormatValue(JsonElement value)
+		{
+			if (value.ValueKind == JsonValueKind.Null)
+				return "NULL";
+
+			if (value.ValueKind == JsonValueKind.Object || value.ValueKind == JsonValueKind.Array)
+				return "[Complex Object]";
+
+			return value.ToString();
 		}
 	}
 }

@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Infrastructure.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20250509090429_init")]
-    partial class init
+    [Migration("20250509181544_newmigration")]
+    partial class newmigration
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -498,7 +498,6 @@ namespace Infrastructure.Migrations
                         .HasColumnType("int");
 
                     b.Property<string>("RecordingUrl")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Role")
@@ -509,7 +508,6 @@ namespace Infrastructure.Migrations
                         .HasColumnType("int");
 
                     b.Property<string>("SessionLink")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("SessionStatus")
@@ -527,10 +525,6 @@ namespace Infrastructure.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("UserId")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
                     b.Property<string>("UserName")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
@@ -540,7 +534,6 @@ namespace Infrastructure.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("VirtualRoomId")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.ToTable((string)null);

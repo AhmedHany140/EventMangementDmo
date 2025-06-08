@@ -8,19 +8,19 @@ namespace Infrastructure.Configurations
 	{
 		public void Configure(EntityTypeBuilder<Session> builder)
 		{
-			// تعريف اسم الجدول
+			
 			builder.ToTable("Sessions");
 
-			// تعريف المفتاح الأساسي
+	
 			builder.HasKey(s => s.Id);
 
-			// تعريف الخصائص
+		
 			builder.Property(s => s.Title)
 				.IsRequired()
 				.HasMaxLength(200);
 
 			builder.Property(s => s.Description)
-				.HasMaxLength(1000); // اختياري
+				.HasMaxLength(1000);
 
 			builder.Property(s => s.StartTime)
 				.IsRequired();
@@ -32,25 +32,25 @@ namespace Infrastructure.Configurations
 				.IsRequired();
 
 			builder.Property(s => s.RecordingUrl)
-				.HasMaxLength(500); // اختياري
+				.HasMaxLength(500); 
 
 			builder.Property(s => s.SessionLink)
-				.HasMaxLength(500); // اختياري
+				.HasMaxLength(500); 
 
 			builder.Property(s => s.SessionStatus)
 				.IsRequired()
-				.HasConversion<string>(); // تحويل Enum إلى string
+				.HasConversion<string>(); 
 
 			builder.Property(s => s.SessionType)
 				.IsRequired()
-				.HasConversion<string>(); // تحويل Enum إلى string
+				.HasConversion<string>();
 
 			builder.HasOne(s => s.VirtualRoom)
 		      .WithOne(vr => vr.Session)
 		      .HasForeignKey<Session>(s => s.VirtualRoomId)
 		     .OnDelete(DeleteBehavior.SetNull);
 
-			// تعريف العلاقات مع الكيانات الأخرى
+		
 			builder.HasOne(s => s.Event)
 				.WithMany(e => e.Sessions)
 				.HasForeignKey(s => s.EventId)

@@ -10,40 +10,40 @@ namespace Infrastructure.Configurations
 		{
 			builder.ToTable("Resources");
 
-			// إعداد المفتاح الأساسي
+		
 			builder.HasKey(r => r.Id);
 
-			// إعداد العلاقات (Navigation properties)
-			builder.HasOne(r => r.Session) // تحديد العلاقة مع Session
-				.WithMany(s => s.Resources) // يمكن أن يكون لـ Session العديد من Resources
-				.HasForeignKey(r => r.SessionId) // تعيين المفتاح الخارجي
-				.OnDelete(DeleteBehavior.Cascade); // عند حذف الجلسة، يتم حذف الموارد المرتبطة بها
+		
+			builder.HasOne(r => r.Session) 
+				.WithMany(s => s.Resources) 
+				.HasForeignKey(r => r.SessionId)
+				.OnDelete(DeleteBehavior.Cascade); 
 
-			builder.HasOne(r => r.Event) // تحديد العلاقة مع Event
-				.WithMany(e => e.Resource) // يمكن أن يكون للـ Event العديد من Resources
-				.HasForeignKey(r => r.EventId) // تعيين المفتاح الخارجي
-				.OnDelete(DeleteBehavior.Cascade); // عند حذف الحدث، يتم حذف الموارد المرتبطة به
+			builder.HasOne(r => r.Event) 
+				.WithMany(e => e.Resource) 
+				.HasForeignKey(r => r.EventId) 
+				.OnDelete(DeleteBehavior.Cascade); 
 
-			// إعداد الخصائص الأخرى
+			
 			builder.Property(r => r.Name)
-				.IsRequired() // اسم المورد يجب أن يكون مطلوبًا
-				.HasMaxLength(255); // تعيين الحد الأقصى للطول
+				.IsRequired() 
+				.HasMaxLength(255); 
 
 			builder.Property(r => r.Type)
-				.IsRequired() // نوع المورد يجب أن يكون مطلوبًا
-				.HasMaxLength(100); // تعيين الحد الأقصى للطول
+				.IsRequired() 
+				.HasMaxLength(100); 
 
 			builder.Property(r => r.Url)
-				.IsRequired() // URL يجب أن يكون مطلوبًا
-				.HasMaxLength(500); // تعيين الحد الأقصى للطول
+				.IsRequired() 
+				.HasMaxLength(500);
 
 			builder.Property(r => r.UploadDate)
 				.IsRequired()
 				.HasDefaultValueSql("GETDATE()");
 
-			// إعداد AccessLevel
+			
 			builder.Property(r => r.AccessLevel)
-				.IsRequired(); // تحديد مستوى الوصول يجب أن يكون إلزاميًا
+				.IsRequired();
 		}
 	}
 }

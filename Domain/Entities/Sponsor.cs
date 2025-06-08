@@ -8,7 +8,7 @@ namespace Domain.Entities
 		public string Name { get; set; } //compant name
 		public string? LogoUrl { get; set; }
 		public string? Website { get; set; }
-		public string? ContactPerson { get; set; } //مدير التسويق مثلا اسم
+		public string? ContactPerson { get; set; } 
 		public string? Email { get; set; }
 
 		public SponsorLevel SponsorLevel { get; set; }

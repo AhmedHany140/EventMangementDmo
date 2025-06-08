@@ -1,9 +1,16 @@
 ﻿using Application.DTOs;
+using Domain.Entities;
 using Domain.Response;
 using Infrastructure.Provider;
+using Infrastructure.Reposatory;
 using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.IdentityModel.Tokens;
 using Microsoft.Win32;
+using System.IdentityModel.Tokens.Jwt;
+using System.Security.Claims;
+using System.Text;
 
 namespace MeetingEventsAPI.Controllers
 {
@@ -36,6 +43,18 @@ namespace MeetingEventsAPI.Controllers
 			return Response.Success ? Ok(Response) : BadRequest(Response);
 		}
 
+
+		[HttpPost("refresh")]
+		public async Task<IActionResult> RefreshToken([FromBody] TokenRequest request)
+		{
+			var result = await Reposatory.RefreshTokenAsync(request);
+			if (!result.Success)
+				return Unauthorized(result.message);
+
+			return Ok(result);
+		}
+
+
 		[HttpGet("GetAll")]
 		public async Task<ActionResult<UserDto>> GetAll()
 		{
@@ -43,5 +62,13 @@ namespace MeetingEventsAPI.Controllers
 
 			return users is not null ? Ok(users) : BadRequest("No Data Found");
 		}
+		[HttpGet("{id}")]
+		public async Task<ActionResult<UserDto>> GetById(string id)
+		{
+			var users = await Reposatory.GetById(id);
+
+			return users is not null ? Ok(users) : BadRequest("No Data Found");
+		}
+
 	}
 }

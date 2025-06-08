@@ -8,6 +8,7 @@ D:\my projects\EventsProjectDMO\Application\obj\Debug\net9.0\Application.Generat
 D:\my projects\EventsProjectDMO\Application\obj\Debug\net9.0\Application.AssemblyInfoInputs.cache
 D:\my projects\EventsProjectDMO\Application\obj\Debug\net9.0\Application.AssemblyInfo.cs
 D:\my projects\EventsProjectDMO\Application\obj\Debug\net9.0\Application.csproj.CoreCompileInputs.cache
+D:\my projects\EventsProjectDMO\Application\obj\Debug\net9.0\Application.sourcelink.json
 D:\my projects\EventsProjectDMO\Application\obj\Debug\net9.0\Applicat.44B5EDA2.Up2Date
 D:\my projects\EventsProjectDMO\Application\obj\Debug\net9.0\Application.dll
 D:\my projects\EventsProjectDMO\Application\obj\Debug\net9.0\refint\Application.dll

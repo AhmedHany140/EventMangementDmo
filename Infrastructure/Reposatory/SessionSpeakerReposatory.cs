@@ -36,9 +36,30 @@ namespace Infrastructure.Reposatory
 			try
 			{
 
-				var result = await context.SessionSpeakerDetails
-					.FromSqlRaw("SELECT * FROM vw_SessionSpeakersDetails")
-					.ToListAsync();
+             			var result = await context.SessionSpeakerDetails
+             .Select(s => new SessionSpeakerDetails
+             {
+             	SessionId = s.SessionId,
+             	EventId = s.EventId,
+             	Title = s.Title,
+             	StartTime = s.StartTime,
+             	EndTime = s.EndTime,
+             	MaxParticipants = s.MaxParticipants,
+             	RecordingUrl = s.RecordingUrl,
+             	SessionLink = s.SessionLink,
+             	SessionStatus = s.SessionStatus,
+             	SessionType = s.SessionType,
+             	VirtualRoomId = s.VirtualRoomId,
+             	Bio = s.Bio,
+             	Email = s.Email,
+             	UserName = s.UserName,
+             	UserType = s.UserType,
+             	CreatedAt = s.CreatedAt,
+             	LastLogin = s.LastLogin,
+             	Role = s.Role
+             })
+             .ToListAsync();
+
 
 				return result ;
 			}

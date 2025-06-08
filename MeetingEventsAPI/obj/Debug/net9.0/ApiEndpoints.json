@@ -1,6 +1,32 @@
 [
   {
     "ContainingType": "MeetingEventsAPI.Controllers.AcountController",
+    "Method": "GetById",
+    "RelativePath": "api/Acount/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Application.DTOs.UserDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "MeetingEventsAPI.Controllers.AcountController",
     "Method": "GetAll",
     "RelativePath": "api/Acount/GetAll",
     "HttpMethod": "GET",
@@ -348,7 +374,7 @@
   {
     "ContainingType": "MeetingEventsAPI.Controllers.EventSponsorController",
     "Method": "GetAll",
-    "RelativePath": "api/EventSponsor",
+    "RelativePath": "api/EventSponsor/GetAll",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -890,7 +916,7 @@
   {
     "ContainingType": "MeetingEventsAPI.Controllers.SessionSpeakerController",
     "Method": "GetAll",
-    "RelativePath": "api/SessionSpeaker",
+    "RelativePath": "api/SessionSpeaker/GetAll",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,

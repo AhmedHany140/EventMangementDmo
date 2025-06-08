@@ -20,6 +20,8 @@ namespace Domain.Entities
 		public ICollection<ChatMessage>? ChatMessages { get; set; }
 		public ICollection<SessionSpeaker> SessionSpeakers { get; set; }
 
+		public string RefreshToken { get; set; }
+		public DateTime RefreshTokenExpiryTime { get; set; }
 	}
 
 }

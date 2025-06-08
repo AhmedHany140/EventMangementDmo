@@ -10,26 +10,26 @@ namespace Infrastructure.Configurations
 		{
 			builder.ToTable("ChatMessages");
 
-			// Primary key
+		
 			builder.HasKey(cm => cm.Id);
 
-			// Session relationship
+			
 			builder.HasOne(cm => cm.Session)
 				.WithMany(s => s.ChatMessages)
 				.HasForeignKey(cm => cm.SessionId)
-				.OnDelete(DeleteBehavior.NoAction); // تم التعديل من Cascade إلى Restrict
+				.OnDelete(DeleteBehavior.NoAction); 
 
-			// User relationship
+
 			builder.HasOne(cm => cm.User)
 				.WithMany(u => u.ChatMessages)
 				.HasForeignKey(cm => cm.UserId)
-				.OnDelete(DeleteBehavior.NoAction); // تم التعديل من Cascade إلى Restrict
+				.OnDelete(DeleteBehavior.NoAction); 
 
-			// ParentMessage relationship (self-reference)
+	
 			builder.HasOne(cm => cm.ParentMessage)
 				.WithMany(pm => pm.Replies)
 				.HasForeignKey(cm => cm.ParentMessageId)
-				.OnDelete(DeleteBehavior.NoAction); // إبقاءه Restrict مهم لتجنب الحذف الحلقي
+				.OnDelete(DeleteBehavior.NoAction); 
 
 			builder.Property(p => p.Timestamp)
 				.IsRequired()

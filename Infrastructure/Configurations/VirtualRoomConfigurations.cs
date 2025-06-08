@@ -10,27 +10,27 @@ namespace Infrastructure.Configurations
 		{
 			builder.ToTable("VirtualRooms");
 
-			// إعداد المفتاح الأساسي
-			builder.HasKey(vr => vr.Id); // RoomId سيكون هو المفتاح الأساسي
+	
+			builder.HasKey(vr => vr.Id);
 
-			// إعداد العلاقات
-			builder.HasOne(vr => vr.Session) // العلاقة مع الكائن Session
-				.WithOne(s => s.VirtualRoom) // لكل Session يوجد VirtualRoom واحد فقط
-				.HasForeignKey<VirtualRoom>(vr => vr.SessionId) // SessionId هو المفتاح الخارجي
-				.OnDelete(DeleteBehavior.Cascade); // حذف VirtualRoom عندما يتم حذف Session
+	
+			builder.HasOne(vr => vr.Session) 
+				.WithOne(s => s.VirtualRoom) 
+				.HasForeignKey<VirtualRoom>(vr => vr.SessionId) 
+				.OnDelete(DeleteBehavior.Cascade); 
 
-			// إعداد الخصائص الأخرى
+		
 			builder.Property(vr => vr.Name)
-				.IsRequired() // يجب أن يكون الحقل مطلوبًا
-				.HasMaxLength(200); // تعيين الحد الأقصى للطول
+				.IsRequired()
+				.HasMaxLength(200); 
 
 			builder.Property(vr => vr.Platform)
-				.IsRequired() // يجب أن يكون الحقل مطلوبًا
-				.HasMaxLength(100); // تعيين الحد الأقصى للطول
+				.IsRequired() 
+				.HasMaxLength(100); 
 
 			builder.Property(vr => vr.AccessCode)
-				.IsRequired() // يجب أن يكون الحقل مطلوبًا
-				.HasMaxLength(50); // تعيين الحد الأقصى للطول
+				.IsRequired() 
+				.HasMaxLength(50); 
 		}
 	}
 }

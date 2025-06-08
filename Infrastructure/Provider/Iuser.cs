@@ -1,4 +1,5 @@
 ﻿using Application.DTOs;
+using Domain.Entities;
 using Domain.Response;
 using System;
 using System.Collections.Generic;
@@ -13,6 +14,8 @@ namespace Infrastructure.Provider
 		Task<Response> Register(RegisterDTO dto);
 		Task<Response> Login(LoginDTO dto);
 		Task<IEnumerable<UserDto>> GetAll();
+		Task<UserDto> GetById(string id);
+		Task<Response> RefreshTokenAsync(TokenRequest request);
 	}
 
 

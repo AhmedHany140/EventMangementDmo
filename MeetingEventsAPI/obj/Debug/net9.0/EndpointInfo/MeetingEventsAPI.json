@@ -130,6 +130,45 @@
         }
       }
     },
+    "/api/Acount/{id}": {
+      "get": {
+        "tags": [
+          "Acount"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/UserDto"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/UserDto"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/UserDto"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
     "/api/ChatMessage": {
       "post": {
         "tags": [
@@ -596,7 +635,9 @@
             }
           }
         }
-      },
+      }
+    },
+    "/api/EventSponsor/GetAll": {
       "get": {
         "tags": [
           "EventSponsor"
@@ -1511,7 +1552,9 @@
             }
           }
         }
-      },
+      }
+    },
+    "/api/SessionSpeaker/GetAll": {
       "get": {
         "tags": [
           "SessionSpeaker"

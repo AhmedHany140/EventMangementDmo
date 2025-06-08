@@ -26,7 +26,7 @@ namespace MeetingEventsAPI.Controllers
 			return Response.Success ? Ok(Response) : BadRequest(Response);
 		}
 
-		[HttpGet]
+		[HttpGet("GetAll")]
 		public async Task<ActionResult<EventSponsorDetails>> GetAll()
 		{
 			var Result = await Reposatory.GetDetails();

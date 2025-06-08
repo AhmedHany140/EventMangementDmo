@@ -3,28 +3,100 @@
   "WorkspaceRootPath": "D:\\my projects\\EventsProjectDMO\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{AE5CCC73-5910-4FD1-8443-039F09D21C9F}|MeetingEventsAPI\\MeetingEventsAPI.csproj|d:\\my projects\\eventsprojectdmo\\meetingeventsapi\\controllers\\sessioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE5CCC73-5910-4FD1-8443-039F09D21C9F}|MeetingEventsAPI\\MeetingEventsAPI.csproj|solutionrelative:meetingeventsapi\\controllers\\sessioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE5CCC73-5910-4FD1-8443-039F09D21C9F}|MeetingEventsAPI\\MeetingEventsAPI.csproj|d:\\my projects\\eventsprojectdmo\\meetingeventsapi\\controllers\\sessionspeakercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE5CCC73-5910-4FD1-8443-039F09D21C9F}|MeetingEventsAPI\\MeetingEventsAPI.csproj|solutionrelative:meetingeventsapi\\controllers\\sessionspeakercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE5CCC73-5910-4FD1-8443-039F09D21C9F}|MeetingEventsAPI\\MeetingEventsAPI.csproj|d:\\my projects\\eventsprojectdmo\\meetingeventsapi\\controllers\\sponsorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE5CCC73-5910-4FD1-8443-039F09D21C9F}|MeetingEventsAPI\\MeetingEventsAPI.csproj|solutionrelative:meetingeventsapi\\controllers\\sponsorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE5CCC73-5910-4FD1-8443-039F09D21C9F}|MeetingEventsAPI\\MeetingEventsAPI.csproj|d:\\my projects\\eventsprojectdmo\\meetingeventsapi\\controllers\\ticketcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE5CCC73-5910-4FD1-8443-039F09D21C9F}|MeetingEventsAPI\\MeetingEventsAPI.csproj|solutionrelative:meetingeventsapi\\controllers\\ticketcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE5CCC73-5910-4FD1-8443-039F09D21C9F}|MeetingEventsAPI\\MeetingEventsAPI.csproj|d:\\my projects\\eventsprojectdmo\\meetingeventsapi\\controllers\\virtualroomcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE5CCC73-5910-4FD1-8443-039F09D21C9F}|MeetingEventsAPI\\MeetingEventsAPI.csproj|solutionrelative:meetingeventsapi\\controllers\\virtualroomcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{AE5CCC73-5910-4FD1-8443-039F09D21C9F}|MeetingEventsAPI\\MeetingEventsAPI.csproj|d:\\my projects\\eventsprojectdmo\\meetingeventsapi\\controllers\\acountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AE5CCC73-5910-4FD1-8443-039F09D21C9F}|MeetingEventsAPI\\MeetingEventsAPI.csproj|solutionrelative:meetingeventsapi\\controllers\\acountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2C0D35A2-4578-4719-B152-E7AD883F1F2E}|Ui\\Ui.csproj|d:\\my projects\\eventsprojectdmo\\ui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2C0D35A2-4578-4719-B152-E7AD883F1F2E}|Ui\\Ui.csproj|solutionrelative:ui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EAEA5580-4053-4729-BCBE-1FE365382276}|Infrastructure\\Infrastructure.csproj|d:\\my projects\\eventsprojectdmo\\infrastructure\\servicecontainer\\servicecontainer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EAEA5580-4053-4729-BCBE-1FE365382276}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\servicecontainer\\servicecontainer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EAEA5580-4053-4729-BCBE-1FE365382276}|Infrastructure\\Infrastructure.csproj|d:\\my projects\\eventsprojectdmo\\infrastructure\\reposatory\\reposatory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EAEA5580-4053-4729-BCBE-1FE365382276}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\reposatory\\reposatory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{ED1BDEB7-25DC-4D11-B289-EE03A5E1D807}|Domain\\Domain.csproj|d:\\my projects\\eventsprojectdmo\\domain\\entities\\virtualroom.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED1BDEB7-25DC-4D11-B289-EE03A5E1D807}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\virtualroom.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EAEA5580-4053-4729-BCBE-1FE365382276}|Infrastructure\\Infrastructure.csproj|d:\\my projects\\eventsprojectdmo\\infrastructure\\reposatory\\sessionspeakerreposatory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EAEA5580-4053-4729-BCBE-1FE365382276}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\reposatory\\sessionspeakerreposatory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{ED1BDEB7-25DC-4D11-B289-EE03A5E1D807}|Domain\\Domain.csproj|d:\\my projects\\eventsprojectdmo\\domain\\entities\\tokenrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED1BDEB7-25DC-4D11-B289-EE03A5E1D807}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\tokenrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EAEA5580-4053-4729-BCBE-1FE365382276}|Infrastructure\\Infrastructure.csproj|d:\\my projects\\eventsprojectdmo\\infrastructure\\reposatory\\acountreposatory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EAEA5580-4053-4729-BCBE-1FE365382276}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\reposatory\\acountreposatory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{ED1BDEB7-25DC-4D11-B289-EE03A5E1D807}|Domain\\Domain.csproj|d:\\my projects\\eventsprojectdmo\\domain\\entities\\tickettype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED1BDEB7-25DC-4D11-B289-EE03A5E1D807}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\tickettype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AE5CCC73-5910-4FD1-8443-039F09D21C9F}|MeetingEventsAPI\\MeetingEventsAPI.csproj|d:\\my projects\\eventsprojectdmo\\meetingeventsapi\\controllers\\eventcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AE5CCC73-5910-4FD1-8443-039F09D21C9F}|MeetingEventsAPI\\MeetingEventsAPI.csproj|solutionrelative:meetingeventsapi\\controllers\\eventcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{ED1BDEB7-25DC-4D11-B289-EE03A5E1D807}|Domain\\Domain.csproj|d:\\my projects\\eventsprojectdmo\\domain\\entities\\sponsor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED1BDEB7-25DC-4D11-B289-EE03A5E1D807}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\sponsor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED1BDEB7-25DC-4D11-B289-EE03A5E1D807}|Domain\\Domain.csproj|d:\\my projects\\eventsprojectdmo\\domain\\entities\\sessionspeakerdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED1BDEB7-25DC-4D11-B289-EE03A5E1D807}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\sessionspeakerdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED1BDEB7-25DC-4D11-B289-EE03A5E1D807}|Domain\\Domain.csproj|d:\\my projects\\eventsprojectdmo\\domain\\entities\\sessionspeaker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED1BDEB7-25DC-4D11-B289-EE03A5E1D807}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\sessionspeaker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED1BDEB7-25DC-4D11-B289-EE03A5E1D807}|Domain\\Domain.csproj|d:\\my projects\\eventsprojectdmo\\domain\\entities\\resource.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED1BDEB7-25DC-4D11-B289-EE03A5E1D807}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\resource.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED1BDEB7-25DC-4D11-B289-EE03A5E1D807}|Domain\\Domain.csproj|d:\\my projects\\eventsprojectdmo\\domain\\entities\\registrations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED1BDEB7-25DC-4D11-B289-EE03A5E1D807}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\registrations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED1BDEB7-25DC-4D11-B289-EE03A5E1D807}|Domain\\Domain.csproj|d:\\my projects\\eventsprojectdmo\\domain\\entities\\chatmessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED1BDEB7-25DC-4D11-B289-EE03A5E1D807}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\chatmessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED1BDEB7-25DC-4D11-B289-EE03A5E1D807}|Domain\\Domain.csproj|d:\\my projects\\eventsprojectdmo\\domain\\entities\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED1BDEB7-25DC-4D11-B289-EE03A5E1D807}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01A288BA-3B37-43EF-8E85-BC490A5DC154}|Application\\Application.csproj|d:\\my projects\\eventsprojectdmo\\application\\mapper\\registrationsmapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01A288BA-3B37-43EF-8E85-BC490A5DC154}|Application\\Application.csproj|solutionrelative:application\\mapper\\registrationsmapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01A288BA-3B37-43EF-8E85-BC490A5DC154}|Application\\Application.csproj|d:\\my projects\\eventsprojectdmo\\application\\mapper\\pollmapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01A288BA-3B37-43EF-8E85-BC490A5DC154}|Application\\Application.csproj|solutionrelative:application\\mapper\\pollmapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01A288BA-3B37-43EF-8E85-BC490A5DC154}|Application\\Application.csproj|d:\\my projects\\eventsprojectdmo\\application\\mapper\\eventmapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01A288BA-3B37-43EF-8E85-BC490A5DC154}|Application\\Application.csproj|solutionrelative:application\\mapper\\eventmapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01A288BA-3B37-43EF-8E85-BC490A5DC154}|Application\\Application.csproj|d:\\my projects\\eventsprojectdmo\\application\\mapper\\chatmessagemapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01A288BA-3B37-43EF-8E85-BC490A5DC154}|Application\\Application.csproj|solutionrelative:application\\mapper\\chatmessagemapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED1BDEB7-25DC-4D11-B289-EE03A5E1D807}|Domain\\Domain.csproj|d:\\my projects\\eventsprojectdmo\\domain\\entities\\session.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED1BDEB7-25DC-4D11-B289-EE03A5E1D807}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\session.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01A288BA-3B37-43EF-8E85-BC490A5DC154}|Application\\Application.csproj|d:\\my projects\\eventsprojectdmo\\application\\mapper\\sessionmapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01A288BA-3B37-43EF-8E85-BC490A5DC154}|Application\\Application.csproj|solutionrelative:application\\mapper\\sessionmapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01A288BA-3B37-43EF-8E85-BC490A5DC154}|Application\\Application.csproj|d:\\my projects\\eventsprojectdmo\\application\\dtos\\dtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01A288BA-3B37-43EF-8E85-BC490A5DC154}|Application\\Application.csproj|solutionrelative:application\\dtos\\dtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{AE5CCC73-5910-4FD1-8443-039F09D21C9F}|MeetingEventsAPI\\MeetingEventsAPI.csproj|d:\\my projects\\eventsprojectdmo\\meetingeventsapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -33,6 +105,62 @@
     {
       "AbsoluteMoniker": "D:0:0:{AE5CCC73-5910-4FD1-8443-039F09D21C9F}|MeetingEventsAPI\\MeetingEventsAPI.csproj|d:\\my projects\\eventsprojectdmo\\meetingeventsapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{AE5CCC73-5910-4FD1-8443-039F09D21C9F}|MeetingEventsAPI\\MeetingEventsAPI.csproj|solutionrelative:meetingeventsapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE5CCC73-5910-4FD1-8443-039F09D21C9F}|MeetingEventsAPI\\MeetingEventsAPI.csproj|d:\\my projects\\eventsprojectdmo\\meetingeventsapi\\meetingeventsapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{AE5CCC73-5910-4FD1-8443-039F09D21C9F}|MeetingEventsAPI\\MeetingEventsAPI.csproj|solutionrelative:meetingeventsapi\\meetingeventsapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE5CCC73-5910-4FD1-8443-039F09D21C9F}|MeetingEventsAPI\\MeetingEventsAPI.csproj|d:\\my projects\\eventsprojectdmo\\meetingeventsapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE5CCC73-5910-4FD1-8443-039F09D21C9F}|MeetingEventsAPI\\MeetingEventsAPI.csproj|solutionrelative:meetingeventsapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAEA5580-4053-4729-BCBE-1FE365382276}|Infrastructure\\Infrastructure.csproj|d:\\my projects\\eventsprojectdmo\\infrastructure\\reposatory\\acountreposatory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EAEA5580-4053-4729-BCBE-1FE365382276}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\reposatory\\acountreposatory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAEA5580-4053-4729-BCBE-1FE365382276}|Infrastructure\\Infrastructure.csproj|d:\\my projects\\eventsprojectdmo\\infrastructure\\provider\\iuser.cs||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{EAEA5580-4053-4729-BCBE-1FE365382276}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\provider\\iuser.cs||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAEA5580-4053-4729-BCBE-1FE365382276}|Infrastructure\\Infrastructure.csproj|d:\\my projects\\eventsprojectdmo\\infrastructure\\provider\\iservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EAEA5580-4053-4729-BCBE-1FE365382276}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\provider\\iservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAEA5580-4053-4729-BCBE-1FE365382276}|Infrastructure\\Infrastructure.csproj|d:\\my projects\\eventsprojectdmo\\infrastructure\\provider\\iprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EAEA5580-4053-4729-BCBE-1FE365382276}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\provider\\iprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01A288BA-3B37-43EF-8E85-BC490A5DC154}|Application\\Application.csproj|d:\\my projects\\eventsprojectdmo\\application\\mapper\\usermapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01A288BA-3B37-43EF-8E85-BC490A5DC154}|Application\\Application.csproj|solutionrelative:application\\mapper\\usermapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01A288BA-3B37-43EF-8E85-BC490A5DC154}|Application\\Application.csproj|d:\\my projects\\eventsprojectdmo\\application\\application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{01A288BA-3B37-43EF-8E85-BC490A5DC154}|Application\\Application.csproj|solutionrelative:application\\application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED1BDEB7-25DC-4D11-B289-EE03A5E1D807}|Domain\\Domain.csproj|d:\\my projects\\eventsprojectdmo\\domain\\response\\response.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED1BDEB7-25DC-4D11-B289-EE03A5E1D807}|Domain\\Domain.csproj|solutionrelative:domain\\response\\response.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAEA5580-4053-4729-BCBE-1FE365382276}|Infrastructure\\Infrastructure.csproj|d:\\my projects\\eventsprojectdmo\\infrastructure\\midelwares\\requestloggingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EAEA5580-4053-4729-BCBE-1FE365382276}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\midelwares\\requestloggingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01A288BA-3B37-43EF-8E85-BC490A5DC154}|Application\\Application.csproj|d:\\my projects\\eventsprojectdmo\\application\\loging\\logexeptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01A288BA-3B37-43EF-8E85-BC490A5DC154}|Application\\Application.csproj|solutionrelative:application\\loging\\logexeptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAEA5580-4053-4729-BCBE-1FE365382276}|Infrastructure\\Infrastructure.csproj|d:\\my projects\\eventsprojectdmo\\infrastructure\\infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{EAEA5580-4053-4729-BCBE-1FE365382276}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAEA5580-4053-4729-BCBE-1FE365382276}|Infrastructure\\Infrastructure.csproj|d:\\my projects\\eventsprojectdmo\\infrastructure\\reposatory\\eventsponsorreposatory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EAEA5580-4053-4729-BCBE-1FE365382276}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\reposatory\\eventsponsorreposatory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAEA5580-4053-4729-BCBE-1FE365382276}|Infrastructure\\Infrastructure.csproj|d:\\my projects\\eventsprojectdmo\\infrastructure\\reposatory\\sessionspeakerreposatory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EAEA5580-4053-4729-BCBE-1FE365382276}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\reposatory\\sessionspeakerreposatory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,7 +170,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -58,107 +186,508 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "SessionSpeakerReposatory.cs",
-              "DocumentMoniker": "D:\\my projects\\EventsProjectDMO\\Infrastructure\\Reposatory\\SessionSpeakerReposatory.cs",
-              "RelativeDocumentMoniker": "Infrastructure\\Reposatory\\SessionSpeakerReposatory.cs",
-              "ToolTip": "D:\\my projects\\EventsProjectDMO\\Infrastructure\\Reposatory\\SessionSpeakerReposatory.cs",
-              "RelativeToolTip": "Infrastructure\\Reposatory\\SessionSpeakerReposatory.cs",
-              "ViewState": "AgIAAB8AAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-09T12:17:26.576Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "AcountReposatory.cs",
-              "DocumentMoniker": "D:\\my projects\\EventsProjectDMO\\Infrastructure\\Reposatory\\AcountReposatory.cs",
-              "RelativeDocumentMoniker": "Infrastructure\\Reposatory\\AcountReposatory.cs",
-              "ToolTip": "D:\\my projects\\EventsProjectDMO\\Infrastructure\\Reposatory\\AcountReposatory.cs",
-              "RelativeToolTip": "Infrastructure\\Reposatory\\AcountReposatory.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA4AAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-09T12:16:54.48Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "AcountController.cs",
-              "DocumentMoniker": "D:\\my projects\\EventsProjectDMO\\MeetingEventsAPI\\Controllers\\AcountController.cs",
-              "RelativeDocumentMoniker": "MeetingEventsAPI\\Controllers\\AcountController.cs",
-              "ToolTip": "D:\\my projects\\EventsProjectDMO\\MeetingEventsAPI\\Controllers\\AcountController.cs",
-              "RelativeToolTip": "MeetingEventsAPI\\Controllers\\AcountController.cs",
-              "ViewState": "AgIAABcAAAAAAAAAAAAcwCQAAAADAAAAAAAAAA==",
+              "Title": "SessionController.cs",
+              "DocumentMoniker": "D:\\my projects\\EventsProjectDMO\\MeetingEventsAPI\\Controllers\\SessionController.cs",
+              "RelativeDocumentMoniker": "MeetingEventsAPI\\Controllers\\SessionController.cs",
+              "ToolTip": "D:\\my projects\\EventsProjectDMO\\MeetingEventsAPI\\Controllers\\SessionController.cs",
+              "RelativeToolTip": "MeetingEventsAPI\\Controllers\\SessionController.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAgwCAAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-09T12:14:28.768Z",
+              "WhenOpened": "2025-06-08T11:20:18.676Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\my projects\\EventsProjectDMO\\Ui\\Program.cs",
-              "RelativeDocumentMoniker": "Ui\\Program.cs",
-              "ToolTip": "D:\\my projects\\EventsProjectDMO\\Ui\\Program.cs",
-              "RelativeToolTip": "Ui\\Program.cs",
-              "ViewState": "AgIAACkAAAAAAAAAAAAgwA0AAAAoAAAAAAAAAA==",
+              "Title": "SessionSpeakerController.cs",
+              "DocumentMoniker": "D:\\my projects\\EventsProjectDMO\\MeetingEventsAPI\\Controllers\\SessionSpeakerController.cs",
+              "RelativeDocumentMoniker": "MeetingEventsAPI\\Controllers\\SessionSpeakerController.cs",
+              "ToolTip": "D:\\my projects\\EventsProjectDMO\\MeetingEventsAPI\\Controllers\\SessionSpeakerController.cs",
+              "RelativeToolTip": "MeetingEventsAPI\\Controllers\\SessionSpeakerController.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAxwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-09T12:13:04.424Z",
+              "WhenOpened": "2025-06-08T11:20:10.995Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Reposatory.cs",
-              "DocumentMoniker": "D:\\my projects\\EventsProjectDMO\\Infrastructure\\Reposatory\\Reposatory.cs",
-              "RelativeDocumentMoniker": "Infrastructure\\Reposatory\\Reposatory.cs",
-              "ToolTip": "D:\\my projects\\EventsProjectDMO\\Infrastructure\\Reposatory\\Reposatory.cs",
-              "RelativeToolTip": "Infrastructure\\Reposatory\\Reposatory.cs",
-              "ViewState": "AgIAAGUAAAAAAAAAAAAIwHAAAAAAAAAAAAAAAA==",
+              "Title": "SponsorController.cs",
+              "DocumentMoniker": "D:\\my projects\\EventsProjectDMO\\MeetingEventsAPI\\Controllers\\SponsorController.cs",
+              "RelativeDocumentMoniker": "MeetingEventsAPI\\Controllers\\SponsorController.cs",
+              "ToolTip": "D:\\my projects\\EventsProjectDMO\\MeetingEventsAPI\\Controllers\\SponsorController.cs",
+              "RelativeToolTip": "MeetingEventsAPI\\Controllers\\SponsorController.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-09T12:10:57.988Z",
+              "WhenOpened": "2025-06-08T11:20:06.35Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "EventController.cs",
-              "DocumentMoniker": "D:\\my projects\\EventsProjectDMO\\MeetingEventsAPI\\Controllers\\EventController.cs",
-              "RelativeDocumentMoniker": "MeetingEventsAPI\\Controllers\\EventController.cs",
-              "ToolTip": "D:\\my projects\\EventsProjectDMO\\MeetingEventsAPI\\Controllers\\EventController.cs",
-              "RelativeToolTip": "MeetingEventsAPI\\Controllers\\EventController.cs",
-              "ViewState": "AgIAABkAAAAAAAAAAAAcwBgAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "TicketController.cs",
+              "DocumentMoniker": "D:\\my projects\\EventsProjectDMO\\MeetingEventsAPI\\Controllers\\TicketController.cs",
+              "RelativeDocumentMoniker": "MeetingEventsAPI\\Controllers\\TicketController.cs",
+              "ToolTip": "D:\\my projects\\EventsProjectDMO\\MeetingEventsAPI\\Controllers\\TicketController.cs",
+              "RelativeToolTip": "MeetingEventsAPI\\Controllers\\TicketController.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-09T12:10:58.004Z",
+              "WhenOpened": "2025-06-08T11:20:03.381Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "launchSettings.json",
-              "DocumentMoniker": "D:\\my projects\\EventsProjectDMO\\MeetingEventsAPI\\Properties\\launchSettings.json",
-              "RelativeDocumentMoniker": "MeetingEventsAPI\\Properties\\launchSettings.json",
-              "ToolTip": "D:\\my projects\\EventsProjectDMO\\MeetingEventsAPI\\Properties\\launchSettings.json",
-              "RelativeToolTip": "MeetingEventsAPI\\Properties\\launchSettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-05-09T12:10:43.062Z",
+              "DocumentIndex": 4,
+              "Title": "VirtualRoomController.cs",
+              "DocumentMoniker": "D:\\my projects\\EventsProjectDMO\\MeetingEventsAPI\\Controllers\\VirtualRoomController.cs",
+              "RelativeDocumentMoniker": "MeetingEventsAPI\\Controllers\\VirtualRoomController.cs",
+              "ToolTip": "D:\\my projects\\EventsProjectDMO\\MeetingEventsAPI\\Controllers\\VirtualRoomController.cs",
+              "RelativeToolTip": "MeetingEventsAPI\\Controllers\\VirtualRoomController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-08T11:20:02.299Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
+              "Title": "VirtualRoom.cs",
+              "DocumentMoniker": "D:\\my projects\\EventsProjectDMO\\Domain\\Entities\\VirtualRoom.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\VirtualRoom.cs",
+              "ToolTip": "D:\\my projects\\EventsProjectDMO\\Domain\\Entities\\VirtualRoom.cs",
+              "RelativeToolTip": "Domain\\Entities\\VirtualRoom.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-08T11:18:25.637Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "TicketType.cs",
+              "DocumentMoniker": "D:\\my projects\\EventsProjectDMO\\Domain\\Entities\\TicketType.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\TicketType.cs",
+              "ToolTip": "D:\\my projects\\EventsProjectDMO\\Domain\\Entities\\TicketType.cs",
+              "RelativeToolTip": "Domain\\Entities\\TicketType.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-08T11:18:23.319Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Sponsor.cs",
+              "DocumentMoniker": "D:\\my projects\\EventsProjectDMO\\Domain\\Entities\\Sponsor.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\Sponsor.cs",
+              "ToolTip": "D:\\my projects\\EventsProjectDMO\\Domain\\Entities\\Sponsor.cs",
+              "RelativeToolTip": "Domain\\Entities\\Sponsor.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAgwAoAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-08T11:18:16.525Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "SessionSpeakerDetails.cs",
+              "DocumentMoniker": "D:\\my projects\\EventsProjectDMO\\Domain\\Entities\\SessionSpeakerDetails.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\SessionSpeakerDetails.cs",
+              "ToolTip": "D:\\my projects\\EventsProjectDMO\\Domain\\Entities\\SessionSpeakerDetails.cs",
+              "RelativeToolTip": "Domain\\Entities\\SessionSpeakerDetails.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-08T11:18:15.122Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Resource.cs",
+              "DocumentMoniker": "D:\\my projects\\EventsProjectDMO\\Domain\\Entities\\Resource.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\Resource.cs",
+              "ToolTip": "D:\\my projects\\EventsProjectDMO\\Domain\\Entities\\Resource.cs",
+              "RelativeToolTip": "Domain\\Entities\\Resource.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-08T11:18:13.107Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Registrations.cs",
+              "DocumentMoniker": "D:\\my projects\\EventsProjectDMO\\Domain\\Entities\\Registrations.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\Registrations.cs",
+              "ToolTip": "D:\\my projects\\EventsProjectDMO\\Domain\\Entities\\Registrations.cs",
+              "RelativeToolTip": "Domain\\Entities\\Registrations.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-08T11:18:11.954Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ChatMessage.cs",
+              "DocumentMoniker": "D:\\my projects\\EventsProjectDMO\\Domain\\Entities\\ChatMessage.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\ChatMessage.cs",
+              "ToolTip": "D:\\my projects\\EventsProjectDMO\\Domain\\Entities\\ChatMessage.cs",
+              "RelativeToolTip": "Domain\\Entities\\ChatMessage.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-08T11:18:09.446Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Session.cs",
+              "DocumentMoniker": "D:\\my projects\\EventsProjectDMO\\Domain\\Entities\\Session.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\Session.cs",
+              "ToolTip": "D:\\my projects\\EventsProjectDMO\\Domain\\Entities\\Session.cs",
+              "RelativeToolTip": "Domain\\Entities\\Session.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-08T11:17:46.086Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "SessionSpeaker.cs",
+              "DocumentMoniker": "D:\\my projects\\EventsProjectDMO\\Domain\\Entities\\SessionSpeaker.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\SessionSpeaker.cs",
+              "ToolTip": "D:\\my projects\\EventsProjectDMO\\Domain\\Entities\\SessionSpeaker.cs",
+              "RelativeToolTip": "Domain\\Entities\\SessionSpeaker.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-08T11:17:45.014Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "SessionMapper.cs",
+              "DocumentMoniker": "D:\\my projects\\EventsProjectDMO\\Application\\Mapper\\SessionMapper.cs",
+              "RelativeDocumentMoniker": "Application\\Mapper\\SessionMapper.cs",
+              "ToolTip": "D:\\my projects\\EventsProjectDMO\\Application\\Mapper\\SessionMapper.cs",
+              "RelativeToolTip": "Application\\Mapper\\SessionMapper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-08T11:17:42.781Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "RegistrationsMapper.cs",
+              "DocumentMoniker": "D:\\my projects\\EventsProjectDMO\\Application\\Mapper\\RegistrationsMapper.cs",
+              "RelativeDocumentMoniker": "Application\\Mapper\\RegistrationsMapper.cs",
+              "ToolTip": "D:\\my projects\\EventsProjectDMO\\Application\\Mapper\\RegistrationsMapper.cs",
+              "RelativeToolTip": "Application\\Mapper\\RegistrationsMapper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-08T11:17:41.964Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "PollMapper.cs",
+              "DocumentMoniker": "D:\\my projects\\EventsProjectDMO\\Application\\Mapper\\PollMapper.cs",
+              "RelativeDocumentMoniker": "Application\\Mapper\\PollMapper.cs",
+              "ToolTip": "D:\\my projects\\EventsProjectDMO\\Application\\Mapper\\PollMapper.cs",
+              "RelativeToolTip": "Application\\Mapper\\PollMapper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-08T11:17:40.869Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "D:\\my projects\\EventsProjectDMO\\MeetingEventsAPI\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "MeetingEventsAPI\\Properties\\launchSettings.json",
+              "ToolTip": "D:\\my projects\\EventsProjectDMO\\MeetingEventsAPI\\Properties\\launchSettings.json",
+              "RelativeToolTip": "MeetingEventsAPI\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-02T13:40:42.072Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "MeetingEventsAPI.csproj",
+              "DocumentMoniker": "D:\\my projects\\EventsProjectDMO\\MeetingEventsAPI\\MeetingEventsAPI.csproj",
+              "RelativeDocumentMoniker": "MeetingEventsAPI\\MeetingEventsAPI.csproj",
+              "ToolTip": "D:\\my projects\\EventsProjectDMO\\MeetingEventsAPI\\MeetingEventsAPI.csproj",
+              "RelativeToolTip": "MeetingEventsAPI\\MeetingEventsAPI.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-06-02T13:26:12.912Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "IService.cs",
+              "DocumentMoniker": "D:\\my projects\\EventsProjectDMO\\Infrastructure\\Provider\\IService.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Provider\\IService.cs",
+              "ToolTip": "D:\\my projects\\EventsProjectDMO\\Infrastructure\\Provider\\IService.cs",
+              "RelativeToolTip": "Infrastructure\\Provider\\IService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T09:15:35.686Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "IProvider.cs",
+              "DocumentMoniker": "D:\\my projects\\EventsProjectDMO\\Infrastructure\\Provider\\IProvider.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Provider\\IProvider.cs",
+              "ToolTip": "D:\\my projects\\EventsProjectDMO\\Infrastructure\\Provider\\IProvider.cs",
+              "RelativeToolTip": "Infrastructure\\Provider\\IProvider.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T09:15:32.777Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
               "Title": "appsettings.json",
               "DocumentMoniker": "D:\\my projects\\EventsProjectDMO\\MeetingEventsAPI\\appsettings.json",
               "RelativeDocumentMoniker": "MeetingEventsAPI\\appsettings.json",
               "ToolTip": "D:\\my projects\\EventsProjectDMO\\MeetingEventsAPI\\appsettings.json",
               "RelativeToolTip": "MeetingEventsAPI\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-05-09T12:10:39.449Z",
+              "WhenOpened": "2025-05-28T09:04:16.739Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "EventMapper.cs",
+              "DocumentMoniker": "D:\\my projects\\EventsProjectDMO\\Application\\Mapper\\EventMapper.cs",
+              "RelativeDocumentMoniker": "Application\\Mapper\\EventMapper.cs",
+              "ToolTip": "D:\\my projects\\EventsProjectDMO\\Application\\Mapper\\EventMapper.cs",
+              "RelativeToolTip": "Application\\Mapper\\EventMapper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T16:21:45.867Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Iuser.cs",
+              "DocumentMoniker": "D:\\my projects\\EventsProjectDMO\\Infrastructure\\Provider\\Iuser.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Provider\\Iuser.cs",
+              "ToolTip": "D:\\my projects\\EventsProjectDMO\\Infrastructure\\Provider\\Iuser.cs",
+              "RelativeToolTip": "Infrastructure\\Provider\\Iuser.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAowBEAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-26T18:32:07.246Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AcountController.cs",
+              "DocumentMoniker": "D:\\my projects\\EventsProjectDMO\\MeetingEventsAPI\\Controllers\\AcountController.cs",
+              "RelativeDocumentMoniker": "MeetingEventsAPI\\Controllers\\AcountController.cs",
+              "ToolTip": "D:\\my projects\\EventsProjectDMO\\MeetingEventsAPI\\Controllers\\AcountController.cs",
+              "RelativeToolTip": "MeetingEventsAPI\\Controllers\\AcountController.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAiwDAAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-26T18:21:44.481Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "AcountReposatory.cs",
+              "DocumentMoniker": "D:\\my projects\\EventsProjectDMO\\Infrastructure\\Reposatory\\AcountReposatory.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Reposatory\\AcountReposatory.cs",
+              "ToolTip": "D:\\my projects\\EventsProjectDMO\\Infrastructure\\Reposatory\\AcountReposatory.cs",
+              "RelativeToolTip": "Infrastructure\\Reposatory\\AcountReposatory.cs",
+              "ViewState": "AgIAAJ8AAAAAAAAAAAAcwKIAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-26T18:07:05.409Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "RequestLoggingMiddleware.cs",
+              "DocumentMoniker": "D:\\my projects\\EventsProjectDMO\\Infrastructure\\Midelwares\\RequestLoggingMiddleware.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Midelwares\\RequestLoggingMiddleware.cs",
+              "ToolTip": "D:\\my projects\\EventsProjectDMO\\Infrastructure\\Midelwares\\RequestLoggingMiddleware.cs",
+              "RelativeToolTip": "Infrastructure\\Midelwares\\RequestLoggingMiddleware.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAowE0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T13:15:29.186Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "Response.cs",
+              "DocumentMoniker": "D:\\my projects\\EventsProjectDMO\\Domain\\Response\\Response.cs",
+              "RelativeDocumentMoniker": "Domain\\Response\\Response.cs",
+              "ToolTip": "D:\\my projects\\EventsProjectDMO\\Domain\\Response\\Response.cs",
+              "RelativeToolTip": "Domain\\Response\\Response.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T15:07:25.039Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Dtos.cs",
+              "DocumentMoniker": "D:\\my projects\\EventsProjectDMO\\Application\\DTOs\\Dtos.cs",
+              "RelativeDocumentMoniker": "Application\\DTOs\\Dtos.cs",
+              "ToolTip": "D:\\my projects\\EventsProjectDMO\\Application\\DTOs\\Dtos.cs",
+              "RelativeToolTip": "Application\\DTOs\\Dtos.cs",
+              "ViewState": "AgIAADQAAAAAAAAAAAAcwBAAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T15:22:49.922Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ServiceContainer.cs",
+              "DocumentMoniker": "D:\\my projects\\EventsProjectDMO\\Infrastructure\\ServiceContainer\\ServiceContainer.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\ServiceContainer\\ServiceContainer.cs",
+              "ToolTip": "D:\\my projects\\EventsProjectDMO\\Infrastructure\\ServiceContainer\\ServiceContainer.cs",
+              "RelativeToolTip": "Infrastructure\\ServiceContainer\\ServiceContainer.cs",
+              "ViewState": "AgIAAEgAAAAAAAAAAAAowCQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T13:02:35.449Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "AppUser.cs",
+              "DocumentMoniker": "D:\\my projects\\EventsProjectDMO\\Domain\\Entities\\AppUser.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\AppUser.cs",
+              "ToolTip": "D:\\my projects\\EventsProjectDMO\\Domain\\Entities\\AppUser.cs",
+              "RelativeToolTip": "Domain\\Entities\\AppUser.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAA2wBcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-26T18:12:15.534Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "Application.csproj",
+              "DocumentMoniker": "D:\\my projects\\EventsProjectDMO\\Application\\Application.csproj",
+              "RelativeDocumentMoniker": "Application\\Application.csproj",
+              "ToolTip": "D:\\my projects\\EventsProjectDMO\\Application\\Application.csproj",
+              "RelativeToolTip": "Application\\Application.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-05-27T15:26:19.809Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "ChatMessageMapper.cs",
+              "DocumentMoniker": "D:\\my projects\\EventsProjectDMO\\Application\\Mapper\\ChatMessageMapper.cs",
+              "RelativeDocumentMoniker": "Application\\Mapper\\ChatMessageMapper.cs",
+              "ToolTip": "D:\\my projects\\EventsProjectDMO\\Application\\Mapper\\ChatMessageMapper.cs",
+              "RelativeToolTip": "Application\\Mapper\\ChatMessageMapper.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T15:27:14.235Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "UserMapper.cs",
+              "DocumentMoniker": "D:\\my projects\\EventsProjectDMO\\Application\\Mapper\\UserMapper.cs",
+              "RelativeDocumentMoniker": "Application\\Mapper\\UserMapper.cs",
+              "ToolTip": "D:\\my projects\\EventsProjectDMO\\Application\\Mapper\\UserMapper.cs",
+              "RelativeToolTip": "Application\\Mapper\\UserMapper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T15:28:07.629Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "LogExeptions.cs",
+              "DocumentMoniker": "D:\\my projects\\EventsProjectDMO\\Application\\Loging\\LogExeptions.cs",
+              "RelativeDocumentMoniker": "Application\\Loging\\LogExeptions.cs",
+              "ToolTip": "D:\\my projects\\EventsProjectDMO\\Application\\Loging\\LogExeptions.cs",
+              "RelativeToolTip": "Application\\Loging\\LogExeptions.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T13:15:09.602Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\my projects\\EventsProjectDMO\\MeetingEventsAPI\\Program.cs",
+              "RelativeDocumentMoniker": "MeetingEventsAPI\\Program.cs",
+              "ToolTip": "D:\\my projects\\EventsProjectDMO\\MeetingEventsAPI\\Program.cs",
+              "RelativeToolTip": "MeetingEventsAPI\\Program.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAAADkAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T13:14:03.09Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "Infrastructure.csproj",
+              "DocumentMoniker": "D:\\my projects\\EventsProjectDMO\\Infrastructure\\Infrastructure.csproj",
+              "RelativeDocumentMoniker": "Infrastructure\\Infrastructure.csproj",
+              "ToolTip": "D:\\my projects\\EventsProjectDMO\\Infrastructure\\Infrastructure.csproj",
+              "RelativeToolTip": "Infrastructure\\Infrastructure.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-05-27T13:08:09.394Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "TokenRequest.cs",
+              "DocumentMoniker": "D:\\my projects\\EventsProjectDMO\\Domain\\Entities\\TokenRequest.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\TokenRequest.cs",
+              "ToolTip": "D:\\my projects\\EventsProjectDMO\\Domain\\Entities\\TokenRequest.cs",
+              "RelativeToolTip": "Domain\\Entities\\TokenRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-26T18:30:23.1Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "SessionSpeakerReposatory.cs",
+              "DocumentMoniker": "D:\\my projects\\EventsProjectDMO\\Infrastructure\\Reposatory\\SessionSpeakerReposatory.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Reposatory\\SessionSpeakerReposatory.cs",
+              "ToolTip": "D:\\my projects\\EventsProjectDMO\\Infrastructure\\Reposatory\\SessionSpeakerReposatory.cs",
+              "RelativeToolTip": "Infrastructure\\Reposatory\\SessionSpeakerReposatory.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAgwBEAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-26T18:06:53.513Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "EventSponsorReposatory.cs",
+              "DocumentMoniker": "D:\\my projects\\EventsProjectDMO\\Infrastructure\\Reposatory\\EventSponsorReposatory.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Reposatory\\EventSponsorReposatory.cs",
+              "ToolTip": "D:\\my projects\\EventsProjectDMO\\Infrastructure\\Reposatory\\EventSponsorReposatory.cs",
+              "RelativeToolTip": "Infrastructure\\Reposatory\\EventSponsorReposatory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-26T18:06:50.191Z"
             }
           ]
         }

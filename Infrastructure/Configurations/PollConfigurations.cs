@@ -10,30 +10,30 @@ namespace Infrastructure.Configurations
 		{
 			builder.ToTable("Polls");
 
-			// تحديد المفتاح الأساسي
+		
 			builder.HasKey(p => p.Id);
 
-			// تحديد الخصائص
+			
 			builder.Property(p => p.Question)
-				.IsRequired() // يجب أن يكون السؤال إلزاميًا
-				.HasMaxLength(500); // تحديد الطول الأقصى للسؤال
+				.IsRequired()
+				.HasMaxLength(500); 
 
 			builder.Property(p => p.IsAnonymous)
-				.IsRequired(); // تحديد أن "هل الاستطلاع مجهول" إلزامي
+				.IsRequired();
 
 			builder.Property(p => p.CreatedAt)
 				.IsRequired()
-				.HasDefaultValueSql("GETDATE()"); // تحديد التاريخ الافتراضي ليكون تاريخ اليوم
+				.HasDefaultValueSql("GETDATE()"); 
 
 			builder.Property(p => p.PollType)
-				.IsRequired() // يجب أن يكون نوع الاستطلاع إلزاميًا
-				.HasConversion<string>(); // تخزين النوع كـ string (مثل "MultipleChoice", "TrueFalse")
+				.IsRequired() 
+				.HasConversion<string>(); 
 
-			// تحديد العلاقة مع الكيان Session
+		
 			builder.HasOne(p => p.Session)
 				.WithMany(s => s.Polls)
 				.HasForeignKey(p => p.SessionId)
-				.OnDelete(DeleteBehavior.Cascade); // عند حذف الجلسة، يتم حذف الاستطلاع أيضًا
+				.OnDelete(DeleteBehavior.Cascade);
 
 
 

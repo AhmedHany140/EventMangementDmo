@@ -204,6 +204,14 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "dependencies": {
+            "MediatR": {
+              "target": "Package",
+              "version": "[12.5.0, )"
+            },
+            "MediatR.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[11.1.0, )"
+            },
             "Microsoft.AspNetCore.Authentication.JwtBearer": {
               "target": "Package",
               "version": "[9.0.3, )"
@@ -223,6 +231,18 @@
             "Serilog.AspNetCore": {
               "target": "Package",
               "version": "[9.0.0, )"
+            },
+            "Serilog.Enrichers.Environment": {
+              "target": "Package",
+              "version": "[3.0.1, )"
+            },
+            "Serilog.Enrichers.Process": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
+            "Serilog.Enrichers.Thread": {
+              "target": "Package",
+              "version": "[4.0.0, )"
             }
           },
           "imports": [

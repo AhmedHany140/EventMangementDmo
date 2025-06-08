@@ -11,9 +11,9 @@ namespace Univerisity.Application.Loges
 	{
 		public static void LogEx(Exception ex)
 		{
-			LogFile(ex.Message);
-			LogConsole(ex.Message);
-			LogDebug(ex.Message);
+			LogFile($"Error: {ex.Message}\nStackTrace: {ex.StackTrace}");
+			LogConsole($"Error: {ex.Message}");
+			LogDebug($"Full Error: {ex}");
 		}
 
 		private static void LogConsole(string message)  =>  Log.Warning(message);

@@ -8,19 +8,19 @@ namespace Infrastructure.Configurations
 	{
 		public void Configure(EntityTypeBuilder<Event> builder)
 		{
-			// اسم الجدول
+	
 			builder.ToTable("Events");
 
-			// المفتاح الأساسي
+	
 			builder.HasKey(e => e.Id);
 
-			// الخصائص المطلوبة أو الاختيارية
+		
 			builder.Property(e => e.Title)
 				   .IsRequired()
 				   .HasMaxLength(200);
 
 			builder.Property(e => e.Description)
-				   .HasMaxLength(1000); // Optional
+				   .HasMaxLength(1000); 
 
 			builder.Property(e => e.StartDate)
 				   .IsRequired();
@@ -36,31 +36,31 @@ namespace Infrastructure.Configurations
 				   .IsRequired()
 				   .HasConversion<string>();
 
-			builder.Property(e => e.MaxAttendees); // Optional
+			builder.Property(e => e.MaxAttendees); 
 
 			builder.Property(e => e.IsRecurring)
 				   .IsRequired();
 
 			builder.Property(e => e.RecurrencePattern)
-				   .HasConversion<string>(); // Optional (used only if IsRecurring == true)
+				   .HasConversion<string>();
 
 			builder.Property(e => e.CoverImageUrl)
-				   .HasMaxLength(500); // Optional
+				   .HasMaxLength(500);
 
 			builder.Property(e => e.TimeZone)
 				   .IsRequired()
 				   .HasMaxLength(100);
 
-			builder.Property(e => e.RegistrationDeadline); // Optional
+			builder.Property(e => e.RegistrationDeadline);
 
-			// العلاقة مع Organizer (AppUser)
+
 			builder.HasOne(e => e.Organizer)
 				   .WithMany(x => x.Events)
 				   .HasForeignKey(e => e.OrganizerId)
 				   .IsRequired()
 				   .OnDelete(DeleteBehavior.Restrict);
 
-			// العلاقات (Navigation Collections)
+
 			builder.HasMany(e => e.Registrations)
 				   .WithOne(r => r.Event)
 				   .HasForeignKey(r => r.EventId)
